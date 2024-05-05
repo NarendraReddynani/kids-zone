@@ -1,0 +1,245 @@
+header{
+    width:100%;
+    height:100vh;
+    
+  }
+  html{
+    scroll-behavior: smooth ;
+  }
+  nav{
+    background-color: aliceblue;
+    width:100%;
+    height: 90px;
+    border-bottom: 1px solid black;
+    box-shadow: 2px 0px 5px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  body{
+    background-color: rgb(161, 223, 81);
+  }
+  .logo
+  {
+    font-size: 50px;
+    font-weight: bold;
+    color: darkblue;
+  }
+  .menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color : grey;
+    padding: 10px 20px;
+    margin :5px;
+    font-weight: bold;
+  }
+  .menu a:last-child{
+    background-color: #674848;
+    color:white;
+  }
+  .menu a:first-child{
+    background-color: rgb(219, 52, 85);
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    transform-origin: center;
+    perspective: 2000px;
+  }
+  .left{
+    flex-basis: 50%;
+    animation: animate 3s linear infinite;
+  }
+  @keyframes animate{
+    0%{
+      transform : scale(0.9);
+    }
+    50%{
+      transform : scale(1);
+    }
+    100%{
+      transform: scale(1);
+    }
+  }
+  .right{
+    flex-basis: 50%;
+    max-width: 300px;
+    margin-left: 100px;
+  }
+  .right h1{
+    font-size: 50px;
+  }
+  .right p{
+    font-size: 25px;
+    margin: 20px 0px;
+  }
+  button{
+    background: black;
+    color:white;
+    font-weight: bold;
+    border:none;
+    outline: none;
+    padding: 10px 20px;
+  }
+   #Below5years{
+    padding: 80px 0px;
+    font-size: 50px;
+    text-align: center;
+  }
+  .wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .box1
+  {
+    flex-basis: 15%;
+    box-shadow: 2px 3px 5px grey;
+    padding: 10px;
+  }
+  .box1 img{
+    width : 100%;
+    
+  }
+  .box1 h2{
+    margin: 20px 0px;
+  }
+  .box1:hover{
+    transform: translateY(-20px);
+    transition: o.4s ease;
+  }
+  span{
+    color:red;
+  }
+  .wrapper>div a{
+    text-decoration: none;
+    color:rebeccapurple;
+    font-weight:bold;
+    font-size: 20px;
+  }
+  #5to13years{
+    padding: 80px 0px;
+    font-size: 50px;
+    text-align: center;
+  }
+  .row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .box
+  {
+    flex-basis: 15%;
+    box-shadow: 2px 3px 5px grey;
+    padding: 10px;
+  }
+  .box img{
+    width : 100%;
+    
+  }
+  .box h2{
+    margin: 20px 0px;
+  }
+  .box:hover{
+    transform: translateY(-20px);
+    transition: o.4s ease;
+  }
+  span{
+    color:Grey;
+    font-family: Times new roman;
+  }
+  .row>div a{
+    text-decoration: none;
+    color:rebeccapurple;
+    font-weight:bold;
+    font-size: 20px;
+  }
+   h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+  }
+   10to15years{
+    padding: 80px 0px;
+    font-size: 50px;
+    text-align: center;
+  }
+  .row2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .box3
+  {
+    flex-basis: 15%;
+    box-shadow: 2px 3px 5px grey;
+    padding: 10px;
+  }
+  .box3 img{
+    width : 100%;
+    
+  }
+  .box3 h2{
+    margin: 20px 0px;
+  }
+  .box3:hover{
+    transform: translateY(-20px);
+    transition: o.4s ease;
+  }
+  span{
+    color:red;
+  }
+  .row2>div a{
+    text-decoration: none;
+    color:rebeccapurple;
+    font-weight:bold;
+    font-size: 20px;
+  }
+  #15to18years{
+    padding: 80px 0px;
+    font-size: 50px;
+    text-align: center;
+  }
+  .row1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .box2
+  {
+    flex-basis: 15%;
+    box-shadow: 2px 3px 5px grey;
+    padding: 10px;
+  }
+  .box2 img{
+    width : 100%;
+    
+  }
+  .box2 h2{
+    margin: 20px 0px;
+  }
+  .box2:hover{
+    transform: translateY(-20px);
+    transition: o.4s ease;
+  }
+  .row1>div a{
+    text-decoration: none;
+    color:rebeccapurple;
+    font-weight:bold;
+    font-size: 20px;
+  
+}
+.menu a{
+  background-color: #674848;
+  color: aliceblue;
+}
+.menu a:hover{
+  background-color: yellow;
+  color: rgb(24, 19, 19);
+}
+/* .tag a{
+  background-color: #674848;
+  color: rgb(24, 19, 19);
+} */

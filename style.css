@@ -1,0 +1,129 @@
+ul li{
+    display:inline-block;
+}
+ul{
+    list-style-type: none;
+    float:right;
+    margin-top:10px;
+    min-height: 40px;
+    margin-right:70px;  
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+ul li a
+ {
+   
+   text-decoration:none ;
+   color:rgb(2, 6, 10);
+   padding:10px 30px;
+   border:1px solid transparent;
+   transition: 0.5 ease;
+}
+ul li a:hover{
+    background-color: rgb(236, 248, 7);
+    color:black;  
+}
+ul li.login a{
+    background-color: rgb(211, 30, 30);
+    color:aliceblue;  
+    border:2px;
+}
+.matter{
+    margin-top: 20px;
+    margin-right: 500px;
+    font-family:monospace;
+    font-size: 20px;
+    font-weight: 30px;
+    
+}
+.form{
+    backdrop-filter: blur(10px);
+    margin-top: 0px;
+    margin-right:500px;
+    margin-left:525px;
+    outline: none;
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    width:500px;
+    justify-content: center;
+    display:inline-block;
+}
+.submit a{
+    background-color: #7c497a;
+    text-decoration:none ;
+    color:rgb(2, 6, 10);
+    padding:10px 30px;
+    border:1px solid ;
+    transition: 0.5 ease;
+}
+.submit a:hover{
+    background-color:rgba(177, 74, 172, 0.934);
+    color: black;
+
+}
+input{
+    padding: 12px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+label{
+    font-size: 20px;
+    width: 100px;
+    font-weight: bolder;
+}
+fieldset{
+    padding:20px;
+}
+.pro{
+    font-size: 50px;
+}
+.qr{
+    margin-left: 5px;
+    margin-bottom: 100px;
+    margin-right:25px;
+    justify-content: center;
+  
+
+    
+    
+}
+
+
+.qr img{
+    position: absolute;
+    top:400px;
+    right:200px;
+    width: 400px;
+    height: 400px;
+
+}
+.qr h1{ 
+    font-size: 25px;
+
+   /* text-align: right; */
+}
+.intro{
+    margin-top: 220px;
+    margin-right: 600px;
+    font-size: 35px;
+    margin-left: 30px;
+    
+    
+}
+@media only screen and (max-width:700px) {
+    ul{
+        width:100%;
+        background:linear-gradient(#ff54a2,#ff575a);
+        position:absolute;
+        top:75px;
+        right:0;
+        z-index:2;
+    }
+    ul li{
+        dispaly:block;
+        margin-top:10px;
+        margin-bottom: 10px;
+    }
+    
+}

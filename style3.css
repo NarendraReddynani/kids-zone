@@ -1,0 +1,295 @@
+ul li{
+    display:inline-block;
+}
+ul{
+    list-style-type: none;
+    float:center;
+    margin-top:10px;
+    min-height: 40px;
+    margin-right:70px;  
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 250px;
+    
+
+}
+body{
+    background-color: #9e6b3c;
+}
+.game a{
+    background-color:red;
+}
+    
+
+ul li a
+ {
+   
+   text-decoration:none ;
+   color:rgb(2, 6, 10);
+   padding:10px 30px;
+   border:1px solid transparent;
+   /* transition: 0.5 ease; */
+   border: 1px solid white;
+   
+   border-radius: 20px;
+   background-color: aqua;
+
+}
+ul li a:hover{
+    background-color: rgb(236, 248, 7);
+    color:black;  
+}
+body h1 {
+    text-align: center;
+    background-color: beige;
+}
+.images{
+    display:grid;
+    grid-template-columns: repeat(4, 2fr);
+    text-align: center; 
+    grid-column-gap:50px;
+    grid-row-gap:20px;
+}
+.images div{
+    backdrop-filter: blur(10px);
+}
+.images img{
+    box-shadow: 0 0 20px 2px black;
+    width: 100%;
+    transition: 1s;
+}
+.images img:hover{
+    
+    transform: scale(1.05);
+    z-index: 2;
+}
+.img1
+{
+    border: 2px solid white;
+}
+.img2{
+
+    border: 2px solid white;
+}
+.img3{
+    
+    border: 2px solid white;
+}
+.img4{
+
+    border: 2px solid white;
+}
+.img5{
+    border: 2px solid white;
+}
+.img6{
+    border: 2px solid white;
+}
+.img7{
+    border: 2px solid white;
+}
+.img8{
+    border: 2px solid white;
+}
+.img9{
+    border: 2px solid white;
+}
+.img10{
+    border: 2px solid white;
+}
+.img11{
+    border: 2px solid white;
+}
+.img12{
+    border: 2px solid white;
+}
+.img13{
+    border: 2px solid white;
+}
+.img14{
+    border: 2px solid white;
+}
+.img15{
+    border: 2px solid white;
+}
+.img16{
+    border: 2px solid white;
+}
+.img17{
+    border: 2px solid white;
+}
+.img18{
+    border: 2px solid white;
+}
+.img19{
+    border: 2px solid white;
+}
+.img20{
+    border: 2px solid white;
+}
+.img21{
+    border: 2px solid white;
+}
+.img22{
+    border: 2px solid white;
+}
+.img23{
+    border: 2px solid white;
+}
+.img24{
+    border: 2px solid white;
+}
+.images a{
+    background: transparent;
+    padding: 10px;
+
+}
+.img1 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+}
+.img2 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+}
+.img3 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+}
+.img4 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+}
+.img5 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+}
+.img6 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+}
+.img7 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+}
+.img8 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+}
+.img9 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+}
+.img10 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+}
+.img11 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+}
+.img12 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.img13 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.img14 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.img15 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.img16 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.img17 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.img18 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.img19 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.img20 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.img21 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.img22 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.img23 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.img24 a{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+ 
+
+}
+.images a:hover{
+    background-color: aquamarine;
+    color: black;
+
+}.images a{
+    background-color: aliceblue;
+    color: rgba(203, 7, 154, 0.822);
+}
+.images div{
+    border: 2px solid rgb(117, 97, 67);
+}
+.main a{
+    border: 2px solid rgb(222, 146, 84);
+}
